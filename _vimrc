@@ -32,10 +32,12 @@ set number
 set guifont=Consolas:h12:cANSI
 "set tags=tags
 " 禁止显示菜单和工具条
-set guioptions-=m
+"set guioptions-=m
 set guioptions-=T
 " 高亮显示当前行/列
 set cursorline
+" 禁止光标闪烁
+set gcr=a:block-blinkon0
 
 highlight default link TagbarHighlight  Title
 let NERDTreeQuitOnOpen=0
@@ -46,8 +48,8 @@ let g:bufExplorerDisableDefaultKeyMapping = 1
 let g:acp_behaviorKeywordCommand = "\<C-o>"
 let g:acp_behaviorKeywordLength = -1
 let g:acp_behaviorFileLength = -1
-let g:SuperTabDefaultCompletionType = "<c-n>"
-let g:SuperTabLongestHighlight = 1
+"let g:SuperTabDefaultCompletionType = "<c-n>"
+"let g:SuperTabLongestHighlight = 1
 let g:tagbar_sort=0
 let g:tagbar_compact=1
 let g:tagbar_foldlevel=1
