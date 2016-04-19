@@ -65,8 +65,8 @@ map <silent> <F3> :TagbarToggle<cr>
 "header and implement file switch
 map <F4> :A<cr>
 "update index
-"map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<cr><cr>:cs kill cscope.out<cr>:!cscope -Rb<cr><cr>:cs add cscope.out<cr>
-map <F5> :call Do_CsTag()<CR>
+map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<cr><cr>:cs kill cscope.out<cr>:!cscope -Rb<cr><cr>:cs add cscope.out<cr>
+"map <F5> :call Do_CsTag()<CR>
 "switch display invisable char or not
 map <F6> :set list!<cr>:set list?<cr>
 "highlight
